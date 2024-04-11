@@ -1,0 +1,449 @@
+Apr 11 16:24:59 jperrier kernel: klogd 1.5.1, log source = /proc/kmsg started.
+Apr 11 16:24:59 jperrier kernel: Inspecting /boot/System.map
+Apr 11 16:24:59 jperrier kernel: Cannot find map file.
+Apr 11 16:24:59 jperrier kernel: Loaded 170247 symbols from 1 module.
+Apr 11 16:24:59 jperrier kernel: [    0.000000] Linux version 6.9.0-rc3-next-20240411 (root@jperrier) (gcc (GCC) 13.2.0, GNU ld (GNU Binutils) 2.41) #1 SMP PREEMPT_DYNAMIC Thu Apr 11 15:59:54 CEST 2024
+Apr 11 16:24:59 jperrier kernel: [    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-next root=/dev/sda2 ro
+Apr 11 16:24:59 jperrier kernel: [    0.000000] BIOS-provided physical RAM map:
+Apr 11 16:24:59 jperrier kernel: [    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+Apr 11 16:24:59 jperrier kernel: [    0.000000] BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff] reserved
+Apr 11 16:24:59 jperrier kernel: [    0.000000] BIOS-e820: [mem 0x00000000000f0000-0x00000000000fffff] reserved
+Apr 11 16:24:59 jperrier kernel: [    0.000000] BIOS-e820: [mem 0x0000000000100000-0x00000000dffeffff] usable
+Apr 11 16:24:59 jperrier kernel: [    0.000000] BIOS-e820: [mem 0x00000000dfff0000-0x00000000dfffffff] ACPI data
+Apr 11 16:24:59 jperrier kernel: [    0.000000] BIOS-e820: [mem 0x00000000fec00000-0x00000000fec00fff] reserved
+Apr 11 16:24:59 jperrier kernel: [    0.000000] BIOS-e820: [mem 0x00000000fee00000-0x00000000fee00fff] reserved
+Apr 11 16:24:59 jperrier kernel: [    0.000000] BIOS-e820: [mem 0x00000000fffc0000-0x00000000ffffffff] reserved
+Apr 11 16:24:59 jperrier kernel: [    0.000000] BIOS-e820: [mem 0x0000000100000000-0x000000011fffffff] usable
+Apr 11 16:24:59 jperrier kernel: [    0.000000] NX (Execute Disable) protection: active
+Apr 11 16:24:59 jperrier kernel: [    0.000000] APIC: Static calls initialized
+Apr 11 16:24:59 jperrier kernel: [    0.000000] SMBIOS 2.5 present.
+Apr 11 16:24:59 jperrier kernel: [    0.000000] DMI: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+Apr 11 16:24:59 jperrier kernel: [    0.000000] Hypervisor detected: KVM
+Apr 11 16:24:59 jperrier kernel: [    0.000000] kvm-clock: Using msrs 4b564d01 and 4b564d00
+Apr 11 16:24:59 jperrier kernel: [    0.000000] kvm-clock: using sched offset of 8513042153543 cycles
+Apr 11 16:24:59 jperrier kernel: [    0.000001] clocksource: kvm-clock: mask: 0xffffffffffffffff max_cycles: 0x1cd42e4dffb, max_idle_ns: 881590591483 ns
+Apr 11 16:24:59 jperrier kernel: [    0.000003] tsc: Detected 3494.398 MHz processor
+Apr 11 16:24:59 jperrier kernel: [    0.001057] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+Apr 11 16:24:59 jperrier kernel: [    0.001059] e820: remove [mem 0x000a0000-0x000fffff] usable
+Apr 11 16:24:59 jperrier kernel: [    0.001061] last_pfn = 0x120000 max_arch_pfn = 0x400000000
+Apr 11 16:24:59 jperrier kernel: [    0.001073] MTRRs disabled by BIOS
+Apr 11 16:24:59 jperrier kernel: [    0.001074] x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- WT  
+Apr 11 16:24:59 jperrier kernel: [    0.001077] last_pfn = 0xdfff0 max_arch_pfn = 0x400000000
+Apr 11 16:24:59 jperrier kernel: [    0.001106] found SMP MP-table at [mem 0x0009fff0-0x0009ffff]
+Apr 11 16:24:59 jperrier kernel: [    0.001114] Incomplete global flushes, disabling PCID
+Apr 11 16:24:59 jperrier kernel: [    0.001164] ACPI: Early table checksum verification disabled
+Apr 11 16:24:59 jperrier kernel: [    0.001166] ACPI: RSDP 0x00000000000E0000 000024 (v02 VBOX  )
+Apr 11 16:24:59 jperrier kernel: [    0.001169] ACPI: XSDT 0x00000000DFFF0030 00003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+Apr 11 16:24:59 jperrier kernel: [    0.001172] ACPI: FACP 0x00000000DFFF00F0 0000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+Apr 11 16:24:59 jperrier kernel: [    0.001175] ACPI: DSDT 0x00000000DFFF0630 002353 (v02 VBOX   VBOXBIOS 00000002 INTL 20100528)
+Apr 11 16:24:59 jperrier kernel: [    0.001177] ACPI: FACS 0x00000000DFFF0200 000040
+Apr 11 16:24:59 jperrier kernel: [    0.001178] ACPI: FACS 0x00000000DFFF0200 000040
+Apr 11 16:24:59 jperrier kernel: [    0.001180] ACPI: APIC 0x00000000DFFF0240 00007C (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+Apr 11 16:24:59 jperrier kernel: [    0.001182] ACPI: SSDT 0x00000000DFFF02C0 00036C (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+Apr 11 16:24:59 jperrier kernel: [    0.001183] ACPI: Reserving FACP table memory at [mem 0xdfff00f0-0xdfff01e3]
+Apr 11 16:24:59 jperrier kernel: [    0.001183] ACPI: Reserving DSDT table memory at [mem 0xdfff0630-0xdfff2982]
+Apr 11 16:24:59 jperrier kernel: [    0.001184] ACPI: Reserving FACS table memory at [mem 0xdfff0200-0xdfff023f]
+Apr 11 16:24:59 jperrier kernel: [    0.001184] ACPI: Reserving FACS table memory at [mem 0xdfff0200-0xdfff023f]
+Apr 11 16:24:59 jperrier kernel: [    0.001185] ACPI: Reserving APIC table memory at [mem 0xdfff0240-0xdfff02bb]
+Apr 11 16:24:59 jperrier kernel: [    0.001185] ACPI: Reserving SSDT table memory at [mem 0xdfff02c0-0xdfff062b]
+Apr 11 16:24:59 jperrier kernel: [    0.001673] No NUMA configuration found
+Apr 11 16:24:59 jperrier kernel: [    0.001673] Faking a node at [mem 0x0000000000000000-0x000000011fffffff]
+Apr 11 16:24:59 jperrier kernel: [    0.001675] NODE_DATA(0) allocated [mem 0x11fff8000-0x11fffbfff]
+Apr 11 16:24:59 jperrier kernel: [    0.001684] Zone ranges:
+Apr 11 16:24:59 jperrier kernel: [    0.001684]   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+Apr 11 16:24:59 jperrier kernel: [    0.001685]   DMA32    [mem 0x0000000001000000-0x00000000ffffffff]
+Apr 11 16:24:59 jperrier kernel: [    0.001686]   Normal   [mem 0x0000000100000000-0x000000011fffffff]
+Apr 11 16:24:59 jperrier kernel: [    0.001686] Movable zone start for each node
+Apr 11 16:24:59 jperrier kernel: [    0.001687] Early memory node ranges
+Apr 11 16:24:59 jperrier kernel: [    0.001687]   node   0: [mem 0x0000000000001000-0x000000000009efff]
+Apr 11 16:24:59 jperrier kernel: [    0.001688]   node   0: [mem 0x0000000000100000-0x00000000dffeffff]
+Apr 11 16:24:59 jperrier kernel: [    0.001688]   node   0: [mem 0x0000000100000000-0x000000011fffffff]
+Apr 11 16:24:59 jperrier kernel: [    0.001689] Initmem setup node 0 [mem 0x0000000000001000-0x000000011fffffff]
+Apr 11 16:24:59 jperrier kernel: [    0.001692] On node 0, zone DMA: 1 pages in unavailable ranges
+Apr 11 16:24:59 jperrier kernel: [    0.001713] On node 0, zone DMA: 97 pages in unavailable ranges
+Apr 11 16:24:59 jperrier kernel: [    0.009749] On node 0, zone Normal: 16 pages in unavailable ranges
+Apr 11 16:24:59 jperrier kernel: [    0.010677] ACPI: PM-Timer IO Port: 0x4008
+Apr 11 16:24:59 jperrier kernel: [    0.010827] IOAPIC[0]: apic_id 6, version 32, address 0xfec00000, GSI 0-23
+Apr 11 16:24:59 jperrier kernel: [    0.010829] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Apr 11 16:24:59 jperrier kernel: [    0.010830] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+Apr 11 16:24:59 jperrier kernel: [    0.010833] ACPI: Using ACPI (MADT) for SMP configuration information
+Apr 11 16:24:59 jperrier kernel: [    0.010836] CPU topo: Max. logical packages:   1
+Apr 11 16:24:59 jperrier kernel: [    0.010836] CPU topo: Max. logical dies:       1
+Apr 11 16:24:59 jperrier kernel: [    0.010836] CPU topo: Max. dies per package:   1
+Apr 11 16:24:59 jperrier kernel: [    0.010839] CPU topo: Max. threads per core:   1
+Apr 11 16:24:59 jperrier kernel: [    0.010840] CPU topo: Num. cores per package:     6
+Apr 11 16:24:59 jperrier kernel: [    0.010840] CPU topo: Num. threads per package:   6
+Apr 11 16:24:59 jperrier kernel: [    0.010840] CPU topo: Allowing 6 present CPUs plus 0 hotplug CPUs
+Apr 11 16:24:59 jperrier kernel: [    0.010913] PM: hibernation: Registered nosave memory: [mem 0x00000000-0x00000fff]
+Apr 11 16:24:59 jperrier kernel: [    0.010914] PM: hibernation: Registered nosave memory: [mem 0x0009f000-0x0009ffff]
+Apr 11 16:24:59 jperrier kernel: [    0.010915] PM: hibernation: Registered nosave memory: [mem 0x000a0000-0x000effff]
+Apr 11 16:24:59 jperrier kernel: [    0.010915] PM: hibernation: Registered nosave memory: [mem 0x000f0000-0x000fffff]
+Apr 11 16:24:59 jperrier kernel: [    0.010915] PM: hibernation: Registered nosave memory: [mem 0xdfff0000-0xdfffffff]
+Apr 11 16:24:59 jperrier kernel: [    0.010916] PM: hibernation: Registered nosave memory: [mem 0xe0000000-0xfebfffff]
+Apr 11 16:24:59 jperrier kernel: [    0.010916] PM: hibernation: Registered nosave memory: [mem 0xfec00000-0xfec00fff]
+Apr 11 16:24:59 jperrier kernel: [    0.010916] PM: hibernation: Registered nosave memory: [mem 0xfec01000-0xfedfffff]
+Apr 11 16:24:59 jperrier kernel: [    0.010917] PM: hibernation: Registered nosave memory: [mem 0xfee00000-0xfee00fff]
+Apr 11 16:24:59 jperrier kernel: [    0.010917] PM: hibernation: Registered nosave memory: [mem 0xfee01000-0xfffbffff]
+Apr 11 16:24:59 jperrier kernel: [    0.010917] PM: hibernation: Registered nosave memory: [mem 0xfffc0000-0xffffffff]
+Apr 11 16:24:59 jperrier kernel: [    0.010918] [mem 0xe0000000-0xfebfffff] available for PCI devices
+Apr 11 16:24:59 jperrier kernel: [    0.010919] Booting paravirtualized kernel on KVM
+Apr 11 16:24:59 jperrier kernel: [    0.010920] clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1910969940391419 ns
+Apr 11 16:24:59 jperrier kernel: [    0.014479] setup_percpu: NR_CPUS:64 nr_cpumask_bits:6 nr_cpu_ids:6 nr_node_ids:1
+Apr 11 16:24:59 jperrier kernel: [    0.014725] percpu: Embedded 56 pages/cpu s191720 r8192 d29464 u262144
+Apr 11 16:24:59 jperrier kernel: [    0.014729] pcpu-alloc: s191720 r8192 d29464 u262144 alloc=1*2097152
+Apr 11 16:24:59 jperrier kernel: [    0.014730] pcpu-alloc: [0] 0 1 2 3 4 5 - - 
+Apr 11 16:24:59 jperrier kernel: [    0.014778] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-next root=/dev/sda2 ro
+Apr 11 16:24:59 jperrier kernel: [    0.014799] Unknown kernel command line parameters "BOOT_IMAGE=/boot/vmlinuz-next", will be passed to user space.
+Apr 11 16:24:59 jperrier kernel: [    0.014815] random: crng init done
+Apr 11 16:24:59 jperrier kernel: [    0.015181] Dentry cache hash table entries: 524288 (order: 10, 4194304 bytes, linear)
+Apr 11 16:24:59 jperrier kernel: [    0.015393] Inode-cache hash table entries: 262144 (order: 9, 2097152 bytes, linear)
+Apr 11 16:24:59 jperrier kernel: [    0.015454] Fallback order for Node 0: 0 
+Apr 11 16:24:59 jperrier kernel: [    0.015455] Built 1 zonelists, mobility grouping on.  Total pages: 1048462
+Apr 11 16:24:59 jperrier kernel: [    0.015456] Policy zone: Normal
+Apr 11 16:24:59 jperrier kernel: [    0.015457] mem auto-init: stack:all(zero), heap alloc:off, heap free:off, mlocked free:off
+Apr 11 16:24:59 jperrier kernel: [    0.015460] software IO TLB: area num 8.
+Apr 11 16:24:59 jperrier kernel: [    0.038537] Memory: 4014524K/4193848K available (18432K kernel code, 2800K rwdata, 6796K rodata, 2704K init, 1276K bss, 179064K reserved, 0K cma-reserved)
+Apr 11 16:24:59 jperrier kernel: [    0.038567] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=6, Nodes=1
+Apr 11 16:24:59 jperrier kernel: [    0.039377] Dynamic Preempt: voluntary
+Apr 11 16:24:59 jperrier kernel: [    0.039396] rcu: Preemptible hierarchical RCU implementation.
+Apr 11 16:24:59 jperrier kernel: [    0.039397] rcu: ^IRCU event tracing is enabled.
+Apr 11 16:24:59 jperrier kernel: [    0.039397] rcu: ^IRCU restricting CPUs from NR_CPUS=64 to nr_cpu_ids=6.
+Apr 11 16:24:59 jperrier kernel: [    0.039398] ^ITrampoline variant of Tasks RCU enabled.
+Apr 11 16:24:59 jperrier kernel: [    0.039398] rcu: RCU calculated value of scheduler-enlistment delay is 100 jiffies.
+Apr 11 16:24:59 jperrier kernel: [    0.039399] rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=6
+Apr 11 16:24:59 jperrier kernel: [    0.039403] RCU Tasks: Setting shift to 3 and lim to 1 rcu_task_cb_adjust=1.
+Apr 11 16:24:59 jperrier kernel: [    0.040153] NR_IRQS: 4352, nr_irqs: 472, preallocated irqs: 16
+Apr 11 16:24:59 jperrier kernel: [    0.040422] rcu: srcu_init: Setting srcu_struct sizes based on contention.
+Apr 11 16:24:59 jperrier kernel: [    0.061640] Console: colour VGA+ 80x25
+Apr 11 16:24:59 jperrier kernel: [    0.061648] printk: legacy console [tty0] enabled
+Apr 11 16:24:59 jperrier kernel: [    0.199234] ACPI: Core revision 20230628
+Apr 11 16:24:59 jperrier kernel: [    0.200824] APIC: Switch to symmetric I/O mode setup
+Apr 11 16:24:59 jperrier kernel: [    0.207652] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+Apr 11 16:24:59 jperrier kernel: [    0.208886] clocksource: tsc-early: mask: 0xffffffffffffffff max_cycles: 0x325ea4cf831, max_idle_ns: 440795248593 ns
+Apr 11 16:24:59 jperrier kernel: [    0.210770] Calibrating delay loop (skipped) preset value.. 6988.79 BogoMIPS (lpj=3494398)
+Apr 11 16:24:59 jperrier kernel: [    0.211767] Last level iTLB entries: 4KB 0, 2MB 0, 4MB 0
+Apr 11 16:24:59 jperrier kernel: [    0.211767] Last level dTLB entries: 4KB 0, 2MB 0, 4MB 0, 1GB 0
+Apr 11 16:24:59 jperrier kernel: [    0.211767] Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+Apr 11 16:24:59 jperrier kernel: [    0.211767] Spectre V2 : Spectre BHI mitigation: SW BHB clearing on vm exit
+Apr 11 16:24:59 jperrier kernel: [    0.211767] Spectre V2 : Spectre BHI mitigation: SW BHB clearing on syscall
+Apr 11 16:24:59 jperrier kernel: [    0.211767] Spectre V2 : Mitigation: Enhanced / Automatic IBRS
+Apr 11 16:24:59 jperrier kernel: [    0.211767] Spectre V2 : Spectre v2 / SpectreRSB mitigation: Filling RSB on context switch
+Apr 11 16:24:59 jperrier kernel: [    0.211767] Spectre V2 : Spectre v2 / PBRSB-eIBRS: Retire a single CALL on VMEXIT
+Apr 11 16:24:59 jperrier kernel: [    0.211767] RETBleed: Mitigation: Enhanced IBRS
+Apr 11 16:24:59 jperrier kernel: [    0.211767] Speculative Store Bypass: Vulnerable
+Apr 11 16:24:59 jperrier kernel: [    0.211767] Register File Data Sampling: Vulnerable: No microcode
+Apr 11 16:24:59 jperrier kernel: [    0.211767] x86/fpu: x87 FPU will use FXSAVE
+Apr 11 16:24:59 jperrier kernel: [    0.221966] Freeing SMP alternatives memory: 48K
+Apr 11 16:24:59 jperrier kernel: [    0.222769] pid_max: default: 32768 minimum: 301
+Apr 11 16:24:59 jperrier kernel: [    0.223613] LSM: initializing lsm=capability,selinux
+Apr 11 16:24:59 jperrier kernel: [    0.223777] SELinux:  Initializing.
+Apr 11 16:24:59 jperrier kernel: [    0.224825] Mount-cache hash table entries: 8192 (order: 4, 65536 bytes, linear)
+Apr 11 16:24:59 jperrier kernel: [    0.225777] Mountpoint-cache hash table entries: 8192 (order: 4, 65536 bytes, linear)
+Apr 11 16:24:59 jperrier kernel: [    0.340995] APIC calibration not consistent with PM-Timer: 129ms instead of 100ms
+Apr 11 16:24:59 jperrier kernel: [    0.341767] APIC delta adjusted to PM-Timer: 6266652 (8097415)
+Apr 11 16:24:59 jperrier kernel: [    0.341921] smpboot: CPU0: 13th Gen Intel(R) Core(TM) i5-13600KF (family: 0x6, model: 0xb7, stepping: 0x1)
+Apr 11 16:24:59 jperrier kernel: [    0.342912] Performance Events: unsupported p6 CPU model 183 no PMU driver, software events only.
+Apr 11 16:24:59 jperrier kernel: [    0.343782] signal: max sigframe size: 1440
+Apr 11 16:24:59 jperrier kernel: [    0.344574] rcu: Hierarchical SRCU implementation.
+Apr 11 16:24:59 jperrier kernel: [    0.344768] rcu: ^IMax phase no-delay instances is 400.
+Apr 11 16:24:59 jperrier kernel: [    0.345872] smp: Bringing up secondary CPUs ...
+Apr 11 16:24:59 jperrier kernel: [    0.346808] smpboot: x86: Booting SMP configuration:
+Apr 11 16:24:59 jperrier kernel: [    0.347778] .... node  #0, CPUs:      #1 #2 #3 #4 #5
+Apr 11 16:24:59 jperrier kernel: [    0.351767] TSC synchronization [CPU#0 -> CPU#1]:
+Apr 11 16:24:59 jperrier kernel: [    0.351767] Measured 89886 cycles TSC warp between CPUs, turning off TSC clock.
+Apr 11 16:24:59 jperrier kernel: [    0.351767] tsc: Marking TSC unstable due to check_tsc_sync_source failed
+Apr 11 16:24:59 jperrier kernel: [    0.360104] smp: Brought up 1 node, 6 CPUs
+Apr 11 16:24:59 jperrier kernel: [    0.360768] smpboot: Total of 6 processors activated (41932.77 BogoMIPS)
+Apr 11 16:24:59 jperrier kernel: [    0.363962] devtmpfs: initialized
+Apr 11 16:24:59 jperrier kernel: [    0.364932] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1911260446275000 ns
+Apr 11 16:24:59 jperrier kernel: [    0.365782] futex hash table entries: 2048 (order: 5, 131072 bytes, linear)
+Apr 11 16:24:59 jperrier kernel: [    0.367770] PM: RTC time: 14:24:46, date: 2024-04-11
+Apr 11 16:24:59 jperrier kernel: [    0.370194] NET: Registered PF_NETLINK/PF_ROUTE protocol family
+Apr 11 16:24:59 jperrier kernel: [    0.370815] audit: initializing netlink subsys (disabled)
+Apr 11 16:24:59 jperrier kernel: [    0.371838] audit: type=2000 audit(1712854000.462:1): state=initialized audit_enabled=0 res=1
+Apr 11 16:24:59 jperrier kernel: [    0.371890] thermal_sys: Registered thermal governor 'step_wise'
+Apr 11 16:24:59 jperrier kernel: [    0.372799] thermal_sys: Registered thermal governor 'user_space'
+Apr 11 16:24:59 jperrier kernel: [    0.373782] cpuidle: using governor menu
+Apr 11 16:24:59 jperrier kernel: [    0.375941] PCI: Using configuration type 1 for base access
+Apr 11 16:24:59 jperrier kernel: [    0.376819] kprobes: kprobe jump-optimization is enabled. All kprobes are optimized if possible.
+Apr 11 16:24:59 jperrier kernel: [    0.397241] HugeTLB: registered 2.00 MiB page size, pre-allocated 0 pages
+Apr 11 16:24:59 jperrier kernel: [    0.397768] HugeTLB: 28 KiB vmemmap can be freed for a 2.00 MiB page
+Apr 11 16:24:59 jperrier kernel: [    0.401957] Demotion targets for Node 0: null
+Apr 11 16:24:59 jperrier kernel: [    0.403573] ACPI: Added _OSI(Module Device)
+Apr 11 16:24:59 jperrier kernel: [    0.403768] ACPI: Added _OSI(Processor Device)
+Apr 11 16:24:59 jperrier kernel: [    0.404556] ACPI: Added _OSI(3.0 _SCP Extensions)
+Apr 11 16:24:59 jperrier kernel: [    0.404770] ACPI: Added _OSI(Processor Aggregator Device)
+Apr 11 16:24:59 jperrier kernel: [    0.407443] ACPI: 2 ACPI AML tables successfully acquired and loaded
+Apr 11 16:24:59 jperrier kernel: [    0.411012] ACPI: _OSC evaluation for CPUs failed, trying _PDC
+Apr 11 16:24:59 jperrier kernel: [    0.411811] ACPI: Interpreter enabled
+Apr 11 16:24:59 jperrier kernel: [    0.412778] ACPI: PM: (supports S0 S5)
+Apr 11 16:24:59 jperrier kernel: [    0.413771] ACPI: Using IOAPIC for interrupt routing
+Apr 11 16:24:59 jperrier kernel: [    0.414954] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Apr 11 16:24:59 jperrier kernel: [    0.415769] PCI: Using E820 reservations for host bridge windows
+Apr 11 16:24:59 jperrier kernel: [    0.417768] ACPI: Enabled 2 GPEs in block 00 to 07
+Apr 11 16:24:59 jperrier kernel: [    0.421778] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Apr 11 16:24:59 jperrier kernel: [    0.422770] acpi PNP0A03:00: _OSC: OS supports [ASPM ClockPM Segments MSI HPX-Type3]
+Apr 11 16:24:59 jperrier kernel: [    0.423772] acpi PNP0A03:00: _OSC: not requesting OS control; OS requires [ExtendedConfig ASPM ClockPM MSI]
+Apr 11 16:24:59 jperrier kernel: [    0.425068] acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended configuration space under this bridge
+Apr 11 16:24:59 jperrier kernel: [    0.425860] PCI host bridge to bus 0000:00
+Apr 11 16:24:59 jperrier kernel: [    0.426768] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+Apr 11 16:24:59 jperrier kernel: [    0.427768] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+Apr 11 16:24:59 jperrier kernel: [    0.428771] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+Apr 11 16:24:59 jperrier kernel: [    0.429774] pci_bus 0000:00: root bus resource [mem 0xe0000000-0xfdffffff window]
+Apr 11 16:24:59 jperrier kernel: [    0.430768] pci_bus 0000:00: root bus resource [bus 00-ff]
+Apr 11 16:24:59 jperrier kernel: [    0.431950] pci 0000:00:00.0: [8086:1237] type 00 class 0x060000 conventional PCI endpoint
+Apr 11 16:24:59 jperrier kernel: [    0.433446] pci 0000:00:01.0: [8086:7000] type 00 class 0x060100 conventional PCI endpoint
+Apr 11 16:24:59 jperrier kernel: [    0.438113] pci 0000:00:01.1: [8086:7111] type 00 class 0x01018a conventional PCI endpoint
+Apr 11 16:24:59 jperrier kernel: [    0.439297] pci 0000:00:01.1: BAR 4 [io  0xd000-0xd00f]
+Apr 11 16:24:59 jperrier kernel: [    0.439994] pci 0000:00:01.1: BAR 0 [io  0x01f0-0x01f7]: legacy IDE quirk
+Apr 11 16:24:59 jperrier kernel: [    0.441768] pci 0000:00:01.1: BAR 1 [io  0x03f6]: legacy IDE quirk
+Apr 11 16:24:59 jperrier kernel: [    0.442768] pci 0000:00:01.1: BAR 2 [io  0x0170-0x0177]: legacy IDE quirk
+Apr 11 16:24:59 jperrier kernel: [    0.443768] pci 0000:00:01.1: BAR 3 [io  0x0376]: legacy IDE quirk
+Apr 11 16:24:59 jperrier kernel: [    0.445055] pci 0000:00:02.0: [15ad:0405] type 00 class 0x030000 conventional PCI endpoint
+Apr 11 16:24:59 jperrier kernel: [    0.446414] pci 0000:00:02.0: BAR 0 [io  0xd010-0xd01f]
+Apr 11 16:24:59 jperrier kernel: [    0.450025] pci 0000:00:02.0: BAR 1 [mem 0xe0000000-0xe0ffffff pref]
+Apr 11 16:24:59 jperrier kernel: [    0.451256] pci 0000:00:02.0: BAR 2 [mem 0xf0000000-0xf01fffff]
+Apr 11 16:24:59 jperrier kernel: [    0.455818] pci 0000:00:02.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+Apr 11 16:24:59 jperrier kernel: [    0.457081] pci 0000:00:03.0: [8086:100e] type 00 class 0x020000 conventional PCI endpoint
+Apr 11 16:24:59 jperrier kernel: [    0.457978] pci 0000:00:03.0: BAR 0 [mem 0xf0200000-0xf021ffff]
+Apr 11 16:24:59 jperrier kernel: [    0.459015] pci 0000:00:03.0: BAR 2 [io  0xd020-0xd027]
+Apr 11 16:24:59 jperrier kernel: [    0.462607] pci 0000:00:04.0: [80ee:cafe] type 00 class 0x088000 conventional PCI endpoint
+Apr 11 16:24:59 jperrier kernel: [    0.465918] pci 0000:00:04.0: BAR 0 [io  0xd040-0xd05f]
+Apr 11 16:24:59 jperrier kernel: [    0.466888] pci 0000:00:04.0: BAR 1 [mem 0xf0400000-0xf07fffff]
+Apr 11 16:24:59 jperrier kernel: [    0.468872] pci 0000:00:04.0: BAR 2 [mem 0xf0800000-0xf0803fff pref]
+Apr 11 16:24:59 jperrier kernel: [    0.471841] pci 0000:00:05.0: [8086:2415] type 00 class 0x040100 conventional PCI endpoint
+Apr 11 16:24:59 jperrier kernel: [    0.472939] pci 0000:00:05.0: BAR 0 [io  0xd100-0xd1ff]
+Apr 11 16:24:59 jperrier kernel: [    0.473862] pci 0000:00:05.0: BAR 1 [io  0xd200-0xd23f]
+Apr 11 16:24:59 jperrier kernel: [    0.476376] pci 0000:00:06.0: [106b:003f] type 00 class 0x0c0310 conventional PCI endpoint
+Apr 11 16:24:59 jperrier kernel: [    0.476977] pci 0000:00:06.0: BAR 0 [mem 0xf0804000-0xf0804fff]
+Apr 11 16:24:59 jperrier kernel: [    0.479284] pci 0000:00:07.0: [8086:7113] type 00 class 0x068000 conventional PCI endpoint
+Apr 11 16:24:59 jperrier kernel: [    0.481258] pci 0000:00:07.0: quirk: [io  0x4000-0x403f] claimed by PIIX4 ACPI
+Apr 11 16:24:59 jperrier kernel: [    0.481781] pci 0000:00:07.0: quirk: [io  0x4100-0x410f] claimed by PIIX4 SMB
+Apr 11 16:24:59 jperrier kernel: [    0.483183] pci 0000:00:0b.0: [8086:265c] type 00 class 0x0c0320 conventional PCI endpoint
+Apr 11 16:24:59 jperrier kernel: [    0.483963] pci 0000:00:0b.0: BAR 0 [mem 0xf0805000-0xf0805fff]
+Apr 11 16:24:59 jperrier kernel: [    0.485767] pci 0000:00:0d.0: [8086:2829] type 00 class 0x010601 conventional PCI endpoint
+Apr 11 16:24:59 jperrier kernel: [    0.486853] pci 0000:00:0d.0: BAR 0 [io  0xd240-0xd247]
+Apr 11 16:24:59 jperrier kernel: [    0.487885] pci 0000:00:0d.0: BAR 1 [io  0xd248-0xd24b]
+Apr 11 16:24:59 jperrier kernel: [    0.488877] pci 0000:00:0d.0: BAR 2 [io  0xd250-0xd257]
+Apr 11 16:24:59 jperrier kernel: [    0.489876] pci 0000:00:0d.0: BAR 3 [io  0xd258-0xd25b]
+Apr 11 16:24:59 jperrier kernel: [    0.490877] pci 0000:00:0d.0: BAR 4 [io  0xd260-0xd26f]
+Apr 11 16:24:59 jperrier kernel: [    0.491877] pci 0000:00:0d.0: BAR 5 [mem 0xf0806000-0xf0807fff]
+Apr 11 16:24:59 jperrier kernel: [    0.495525] ACPI: PCI: Interrupt link LNKA configured for IRQ 11
+Apr 11 16:24:59 jperrier kernel: [    0.495957] ACPI: PCI: Interrupt link LNKB configured for IRQ 10
+Apr 11 16:24:59 jperrier kernel: [    0.496844] ACPI: PCI: Interrupt link LNKC configured for IRQ 9
+Apr 11 16:24:59 jperrier kernel: [    0.497840] ACPI: PCI: Interrupt link LNKD configured for IRQ 11
+Apr 11 16:24:59 jperrier kernel: [    0.499922] iommu: Default domain type: Translated
+Apr 11 16:24:59 jperrier kernel: [    0.500768] iommu: DMA domain TLB invalidation policy: lazy mode
+Apr 11 16:24:59 jperrier kernel: [    0.501802] SCSI subsystem initialized
+Apr 11 16:24:59 jperrier kernel: [    0.502842] libata version 3.00 loaded.
+Apr 11 16:24:59 jperrier kernel: [    0.502842] ACPI: bus type USB registered
+Apr 11 16:24:59 jperrier kernel: [    0.503774] usbcore: registered new interface driver usbfs
+Apr 11 16:24:59 jperrier kernel: [    0.504749] usbcore: registered new interface driver hub
+Apr 11 16:24:59 jperrier kernel: [    0.504770] usbcore: registered new device driver usb
+Apr 11 16:24:59 jperrier kernel: [    0.505774] pps_core: LinuxPPS API ver. 1 registered
+Apr 11 16:24:59 jperrier kernel: [    0.506768] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+Apr 11 16:24:59 jperrier kernel: [    0.507769] PTP clock support registered
+Apr 11 16:24:59 jperrier kernel: [    0.508882] Advanced Linux Sound Architecture Driver Initialized.
+Apr 11 16:24:59 jperrier kernel: [    0.511045] NetLabel: Initializing
+Apr 11 16:24:59 jperrier kernel: [    0.511768] NetLabel:  domain hash size = 128
+Apr 11 16:24:59 jperrier kernel: [    0.512636] NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+Apr 11 16:24:59 jperrier kernel: [    0.512804] NetLabel:  unlabeled traffic allowed by default
+Apr 11 16:24:59 jperrier kernel: [    0.513830] PCI: Using ACPI for IRQ routing
+Apr 11 16:24:59 jperrier kernel: [    0.514769] PCI: pci_cache_line_size set to 64 bytes
+Apr 11 16:24:59 jperrier kernel: [    0.515070] e820: reserve RAM buffer [mem 0x0009fc00-0x0009ffff]
+Apr 11 16:24:59 jperrier kernel: [    0.515071] e820: reserve RAM buffer [mem 0xdfff0000-0xdfffffff]
+Apr 11 16:24:59 jperrier kernel: [    0.515126] pci 0000:00:02.0: vgaarb: setting as boot VGA device
+Apr 11 16:24:59 jperrier kernel: [    0.515767] pci 0000:00:02.0: vgaarb: bridge control possible
+Apr 11 16:24:59 jperrier kernel: [    0.515767] pci 0000:00:02.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
+Apr 11 16:24:59 jperrier kernel: [    0.515770] vgaarb: loaded
+Apr 11 16:24:59 jperrier kernel: [    0.517771] clocksource: Switched to clocksource kvm-clock
+Apr 11 16:24:59 jperrier kernel: [    0.520669] VFS: Disk quotas dquot_6.6.0
+Apr 11 16:24:59 jperrier kernel: [    0.521463] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Apr 11 16:24:59 jperrier kernel: [    0.523768] pnp: PnP ACPI init
+Apr 11 16:24:59 jperrier kernel: [    0.525259] pnp: PnP ACPI: found 2 devices
+Apr 11 16:24:59 jperrier kernel: [    0.554854] clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+Apr 11 16:24:59 jperrier kernel: [    0.555780] NET: Registered PF_INET protocol family
+Apr 11 16:24:59 jperrier kernel: [    0.555780] IP idents hash table entries: 65536 (order: 7, 524288 bytes, linear)
+Apr 11 16:24:59 jperrier kernel: [    0.555780] tcp_listen_portaddr_hash hash table entries: 2048 (order: 3, 32768 bytes, linear)
+Apr 11 16:24:59 jperrier kernel: [    0.555780] Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)
+Apr 11 16:24:59 jperrier kernel: [    0.555780] TCP established hash table entries: 32768 (order: 6, 262144 bytes, linear)
+Apr 11 16:24:59 jperrier kernel: [    0.555780] TCP bind hash table entries: 32768 (order: 8, 1048576 bytes, linear)
+Apr 11 16:24:59 jperrier kernel: [    0.555780] TCP: Hash tables configured (established 32768 bind 32768)
+Apr 11 16:24:59 jperrier kernel: [    0.555780] UDP hash table entries: 2048 (order: 4, 65536 bytes, linear)
+Apr 11 16:24:59 jperrier kernel: [    0.555780] UDP-Lite hash table entries: 2048 (order: 4, 65536 bytes, linear)
+Apr 11 16:24:59 jperrier kernel: [    0.555780] NET: Registered PF_UNIX/PF_LOCAL protocol family
+Apr 11 16:24:59 jperrier kernel: [    0.570633] RPC: Registered named UNIX socket transport module.
+Apr 11 16:24:59 jperrier kernel: [    0.571829] RPC: Registered udp transport module.
+Apr 11 16:24:59 jperrier kernel: [    0.572668] RPC: Registered tcp transport module.
+Apr 11 16:24:59 jperrier kernel: [    0.572768] RPC: Registered tcp-with-tls transport module.
+Apr 11 16:24:59 jperrier kernel: [    0.572768] RPC: Registered tcp NFSv4.1 backchannel transport module.
+Apr 11 16:24:59 jperrier kernel: [    0.576836] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+Apr 11 16:24:59 jperrier kernel: [    0.578036] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+Apr 11 16:24:59 jperrier kernel: [    0.578973] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+Apr 11 16:24:59 jperrier kernel: [    0.578973] pci_bus 0000:00: resource 7 [mem 0xe0000000-0xfdffffff window]
+Apr 11 16:24:59 jperrier kernel: [    0.578973] pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+Apr 11 16:24:59 jperrier kernel: [    0.578973] PCI: CLS 0 bytes, default 64
+Apr 11 16:24:59 jperrier kernel: [    0.578973] PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+Apr 11 16:24:59 jperrier kernel: [    0.578973] software IO TLB: mapped [mem 0x00000000dbff0000-0x00000000dfff0000] (64MB)
+Apr 11 16:24:59 jperrier kernel: [    0.588909] RAPL PMU: API unit is 2^-32 Joules, 0 fixed counters, 335544320 ms ovfl timer
+Apr 11 16:24:59 jperrier kernel: [    0.590896] platform rtc_cmos: registered platform RTC device (no PNP device found)
+Apr 11 16:24:59 jperrier kernel: [    0.597622] Initialise system trusted keyrings
+Apr 11 16:24:59 jperrier kernel: [    0.598825] workingset: timestamp_bits=56 max_order=20 bucket_order=0
+Apr 11 16:24:59 jperrier kernel: [    0.600414] NFS: Registering the id_resolver key type
+Apr 11 16:24:59 jperrier kernel: [    0.601436] Key type id_resolver registered
+Apr 11 16:24:59 jperrier kernel: [    0.602200] Key type id_legacy registered
+Apr 11 16:24:59 jperrier kernel: [    0.603298] 9p: Installing v9fs 9p2000 file system support
+Apr 11 16:24:59 jperrier kernel: [    0.608275] Key type asymmetric registered
+Apr 11 16:24:59 jperrier kernel: [    0.608275] Asymmetric key parser 'x509' registered
+Apr 11 16:24:59 jperrier kernel: [    0.608275] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 251)
+Apr 11 16:24:59 jperrier kernel: [    0.608275] io scheduler mq-deadline registered
+Apr 11 16:24:59 jperrier kernel: [    0.608275] io scheduler kyber registered
+Apr 11 16:24:59 jperrier kernel: [    0.617663] ACPI: AC: AC Adapter [AC] (on-line)
+Apr 11 16:24:59 jperrier kernel: [    0.618370] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+Apr 11 16:24:59 jperrier kernel: [    0.618370] ACPI: button: Power Button [PWRF]
+Apr 11 16:24:59 jperrier kernel: [    0.618370] input: Sleep Button as /devices/LNXSYSTM:00/LNXSLPBN:00/input/input1
+Apr 11 16:24:59 jperrier kernel: [    0.618370] ACPI: button: Sleep Button [SLPF]
+Apr 11 16:24:59 jperrier kernel: [    0.618370] ACPI: video: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+Apr 11 16:24:59 jperrier kernel: [    0.618370] input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/LNXVIDEO:00/input/input2
+Apr 11 16:24:59 jperrier kernel: [    0.640533] Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+Apr 11 16:24:59 jperrier kernel: [    0.643843] Non-volatile memory driver v1.3
+Apr 11 16:24:59 jperrier kernel: [    0.644684] Linux agpgart interface v0.103
+Apr 11 16:24:59 jperrier kernel: [    0.644817] ACPI: bus type drm_connector registered
+Apr 11 16:24:59 jperrier kernel: [    0.650799] loop: module loaded
+Apr 11 16:24:59 jperrier kernel: [    0.651446] ahci 0000:00:0d.0: version 3.0
+Apr 11 16:24:59 jperrier kernel: [    0.651756] ahci 0000:00:0d.0: SSS flag set, parallel bus scan disabled
+Apr 11 16:24:59 jperrier kernel: [    0.651756] ahci 0000:00:0d.0: AHCI vers 0001.0100, 32 command slots, 3 Gbps, SATA mode
+Apr 11 16:24:59 jperrier kernel: [    0.651756] ahci 0000:00:0d.0: 1/1 ports implemented (port mask 0x1)
+Apr 11 16:24:59 jperrier kernel: [    0.651756] ahci 0000:00:0d.0: flags: 64bit ncq stag only ccc 
+Apr 11 16:24:59 jperrier kernel: [    0.658335] scsi host0: ahci
+Apr 11 16:24:59 jperrier kernel: [    0.659099] ata1: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806100 irq 21 lpm-pol 0
+Apr 11 16:24:59 jperrier kernel: [    0.661007] ata_piix 0000:00:01.1: version 2.13
+Apr 11 16:24:59 jperrier kernel: [    0.662731] scsi host1: ata_piix
+Apr 11 16:24:59 jperrier kernel: [    0.664091] scsi host2: ata_piix
+Apr 11 16:24:59 jperrier kernel: [    0.664722] ata2: PATA max UDMA/33 cmd 0x1f0 ctl 0x3f6 bmdma 0xd000 irq 14 lpm-pol 0
+Apr 11 16:24:59 jperrier kernel: [    0.664952] ata3: PATA max UDMA/33 cmd 0x170 ctl 0x376 bmdma 0xd008 irq 15 lpm-pol 0
+Apr 11 16:24:59 jperrier kernel: [    0.664952] e100: Intel(R) PRO/100 Network Driver
+Apr 11 16:24:59 jperrier kernel: [    0.664952] e100: Copyright(c) 1999-2006 Intel Corporation
+Apr 11 16:24:59 jperrier kernel: [    0.664952] e1000: Intel(R) PRO/1000 Network Driver
+Apr 11 16:24:59 jperrier kernel: [    0.664952] e1000: Copyright (c) 1999-2006 Intel Corporation.
+Apr 11 16:24:59 jperrier kernel: [    0.914817] ata3.00: ATAPI: VBOX CD-ROM, 1.0, max UDMA/133
+Apr 11 16:24:59 jperrier kernel: [    1.026623] ata1: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+Apr 11 16:24:59 jperrier kernel: [    1.028392] ata1.00: ATA-6: VBOX HARDDISK, 1.0, max UDMA/133
+Apr 11 16:24:59 jperrier kernel: [    1.029603] ata1.00: 104857600 sectors, multi 128: LBA48 NCQ (depth 32)
+Apr 11 16:24:59 jperrier kernel: [    1.031518] ata1.00: configured for UDMA/133
+Apr 11 16:24:59 jperrier kernel: [    1.032404] scsi 0:0:0:0: Direct-Access     ATA      VBOX HARDDISK    1.0  PQ: 0 ANSI: 5
+Apr 11 16:24:59 jperrier kernel: [    1.038189] scsi 0:0:0:0: Attached scsi generic sg0 type 0
+Apr 11 16:24:59 jperrier kernel: [    1.039860] sd 0:0:0:0: [sda] 104857600 512-byte logical blocks: (53.7 GB/50.0 GiB)
+Apr 11 16:24:59 jperrier kernel: [    1.040542] scsi 2:0:0:0: CD-ROM            VBOX     CD-ROM           1.0  PQ: 0 ANSI: 5
+Apr 11 16:24:59 jperrier kernel: [    1.041529] sd 0:0:0:0: [sda] Write Protect is off
+Apr 11 16:24:59 jperrier kernel: [    1.041530] sd 0:0:0:0: [sda] Mode Sense: 00 3a 00 00
+Apr 11 16:24:59 jperrier kernel: [    1.041535] sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Apr 11 16:24:59 jperrier kernel: [    1.041542] sd 0:0:0:0: [sda] Preferred minimum I/O size 512 bytes
+Apr 11 16:24:59 jperrier kernel: [    1.051869]  sda: sda1 sda2 sda3
+Apr 11 16:24:59 jperrier kernel: [    1.053619] sd 0:0:0:0: [sda] Attached SCSI disk
+Apr 11 16:24:59 jperrier kernel: [    1.057898] sr 2:0:0:0: [sr0] scsi3-mmc drive: 32x/32x xa/form2 tray
+Apr 11 16:24:59 jperrier kernel: [    1.059477] cdrom: Uniform CD-ROM driver Revision: 3.20
+Apr 11 16:24:59 jperrier kernel: [    1.076811] sr 2:0:0:0: Attached scsi CD-ROM sr0
+Apr 11 16:24:59 jperrier kernel: [    1.077261] sr 2:0:0:0: Attached scsi generic sg1 type 5
+Apr 11 16:24:59 jperrier kernel: [    1.081313] e1000 0000:00:03.0 eth0: (PCI:33MHz:32-bit) 08:00:27:ea:28:01
+Apr 11 16:24:59 jperrier kernel: [    1.081313] e1000 0000:00:03.0 eth0: Intel(R) PRO/1000 Network Connection
+Apr 11 16:24:59 jperrier kernel: [    1.081313] e1000e: Intel(R) PRO/1000 Network Driver
+Apr 11 16:24:59 jperrier kernel: [    1.081313] e1000e: Copyright(c) 1999 - 2015 Intel Corporation.
+Apr 11 16:24:59 jperrier kernel: [    1.081313] sky2: driver version 1.30
+Apr 11 16:24:59 jperrier kernel: [    1.104371] ohci-pci 0000:00:06.0: OHCI PCI host controller
+Apr 11 16:24:59 jperrier kernel: [    1.105708] ohci-pci 0000:00:06.0: new USB bus registered, assigned bus number 1
+Apr 11 16:24:59 jperrier kernel: [    1.107580] ohci-pci 0000:00:06.0: irq 22, io mem 0xf0804000
+Apr 11 16:24:59 jperrier kernel: [    1.167443] usb usb1: New USB device found, idVendor=1d6b, idProduct=0001, bcdDevice= 6.09
+Apr 11 16:24:59 jperrier kernel: [    1.167443] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Apr 11 16:24:59 jperrier kernel: [    1.167443] usb usb1: Product: OHCI PCI host controller
+Apr 11 16:24:59 jperrier kernel: [    1.167443] usb usb1: Manufacturer: Linux 6.9.0-rc3-next-20240411 ohci_hcd
+Apr 11 16:24:59 jperrier kernel: [    1.167443] usb usb1: SerialNumber: 0000:00:06.0
+Apr 11 16:24:59 jperrier kernel: [    1.167443] hub 1-0:1.0: USB hub found
+Apr 11 16:24:59 jperrier kernel: [    1.167443] hub 1-0:1.0: 12 ports detected
+Apr 11 16:24:59 jperrier kernel: [    1.167443] usbcore: registered new interface driver usblp
+Apr 11 16:24:59 jperrier kernel: [    1.177958] ehci-pci 0000:00:0b.0: EHCI Host Controller
+Apr 11 16:24:59 jperrier kernel: [    1.179380] usbcore: registered new interface driver usb-storage
+Apr 11 16:24:59 jperrier kernel: [    1.181784] i8042: PNP: PS/2 Controller [PNP0303:PS2K,PNP0f03:PS2M] at 0x60,0x64 irq 1,12
+Apr 11 16:24:59 jperrier kernel: [    1.181830] ehci-pci 0000:00:0b.0: new USB bus registered, assigned bus number 2
+Apr 11 16:24:59 jperrier kernel: [    1.185645] ehci-pci 0000:00:0b.0: irq 19, io mem 0xf0805000
+Apr 11 16:24:59 jperrier kernel: [    1.185969] serio: i8042 KBD port at 0x60,0x64 irq 1
+Apr 11 16:24:59 jperrier kernel: [    1.188094] serio: i8042 AUX port at 0x60,0x64 irq 12
+Apr 11 16:24:59 jperrier kernel: [    1.190796] rtc_cmos rtc_cmos: registered as rtc0
+Apr 11 16:24:59 jperrier kernel: [    1.192236] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input3
+Apr 11 16:24:59 jperrier kernel: [    1.193841] ehci-pci 0000:00:0b.0: USB 2.0 started, EHCI 1.00
+Apr 11 16:24:59 jperrier kernel: [    1.194930] rtc_cmos rtc_cmos: alarms up to one day, 114 bytes nvram
+Apr 11 16:24:59 jperrier kernel: [    1.195334] usb usb2: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 6.09
+Apr 11 16:24:59 jperrier kernel: [    1.196715] fail to initialize ptp_kvm
+Apr 11 16:24:59 jperrier kernel: [    1.197039] device-mapper: ioctl: 4.48.0-ioctl (2023-03-01) initialised: dm-devel@lists.linux.dev
+Apr 11 16:24:59 jperrier kernel: [    1.198389] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Apr 11 16:24:59 jperrier kernel: [    1.198390] usb usb2: Product: EHCI Host Controller
+Apr 11 16:24:59 jperrier kernel: [    1.198390] usb usb2: Manufacturer: Linux 6.9.0-rc3-next-20240411 ehci_hcd
+Apr 11 16:24:59 jperrier kernel: [    1.198391] usb usb2: SerialNumber: 0000:00:0b.0
+Apr 11 16:24:59 jperrier kernel: [    1.198637] hub 2-0:1.0: USB hub found
+Apr 11 16:24:59 jperrier kernel: [    1.199381] intel_pstate: CPU model not supported
+Apr 11 16:24:59 jperrier kernel: [    1.199405] hid: raw HID events driver (C) Jiri Kosina
+Apr 11 16:24:59 jperrier kernel: [    1.200957] hub 2-0:1.0: 12 ports detected
+Apr 11 16:24:59 jperrier kernel: [    1.201976] usbcore: registered new interface driver usbhid
+Apr 11 16:24:59 jperrier kernel: [    1.212058] usbhid: USB HID core driver
+Apr 11 16:24:59 jperrier kernel: [    1.214172] Initializing XFRM netlink socket
+Apr 11 16:24:59 jperrier kernel: [    1.215266] NET: Registered PF_INET6 protocol family
+Apr 11 16:24:59 jperrier kernel: [    1.217492] Segment Routing with IPv6
+Apr 11 16:24:59 jperrier kernel: [    1.218240] In-situ OAM (IOAM) with IPv6
+Apr 11 16:24:59 jperrier kernel: [    1.219341] sit: IPv6, IPv4 and MPLS over IPv4 tunneling driver
+Apr 11 16:24:59 jperrier kernel: [    1.220642] NET: Registered PF_PACKET protocol family
+Apr 11 16:24:59 jperrier kernel: [    1.221570] 9pnet: Installing 9P2000 support
+Apr 11 16:24:59 jperrier kernel: [    1.222697] Key type dns_resolver registered
+Apr 11 16:24:59 jperrier kernel: [    1.225422] IPI shorthand broadcast: enabled
+Apr 11 16:24:59 jperrier kernel: [    1.227475] sched_clock: Marking stable (1056266170, 170209438)->(1380254402, -153778794)
+Apr 11 16:24:59 jperrier kernel: [    1.233601] Timer migration: 1 hierarchy levels; 8 children per group; 1 crossnode level
+Apr 11 16:24:59 jperrier kernel: [    1.236448] registered taskstats version 1
+Apr 11 16:24:59 jperrier kernel: [    1.237441] Loading compiled-in X.509 certificates
+Apr 11 16:24:59 jperrier kernel: [    1.238942] Demotion targets for Node 0: null
+Apr 11 16:24:59 jperrier kernel: [    1.240585] PM:   Magic number: 4:672:434
+Apr 11 16:24:59 jperrier kernel: [    1.241612] printk: legacy console [netcon0] enabled
+Apr 11 16:24:59 jperrier kernel: [    1.242764] netconsole: network logging started
+Apr 11 16:24:59 jperrier kernel: [    1.243870] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+Apr 11 16:24:59 jperrier kernel: [    1.245855] kworker/u28:1 (92) used greatest stack depth: 14440 bytes left
+Apr 11 16:24:59 jperrier kernel: [    1.247387] kworker/u28:1 (93) used greatest stack depth: 13880 bytes left
+Apr 11 16:24:59 jperrier kernel: [    1.247938] Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
+Apr 11 16:24:59 jperrier kernel: [    1.250122] Loaded X.509 cert 'wens: 61c038651aabdcf94bd0ac7ff06c7248db18c600'
+Apr 11 16:24:59 jperrier kernel: [    1.251847] platform regulatory.0: Direct firmware load for regulatory.db failed with error -2
+Apr 11 16:24:59 jperrier kernel: [    1.253523] cfg80211: failed to load regulatory.db
+Apr 11 16:24:59 jperrier kernel: [    1.254561] ALSA device list:
+Apr 11 16:24:59 jperrier kernel: [    1.255347]   No soundcards found.
+Apr 11 16:24:59 jperrier kernel: [    1.712736] input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input5
+Apr 11 16:24:59 jperrier kernel: [    1.714874] md: Waiting for all devices to be available before autodetect
+Apr 11 16:24:59 jperrier kernel: [    1.716385] md: If you don't use raid, use raid=noautodetect
+Apr 11 16:24:59 jperrier kernel: [    1.717516] md: Autodetecting RAID arrays.
+Apr 11 16:24:59 jperrier kernel: [    1.718400] md: autorun ...
+Apr 11 16:24:59 jperrier kernel: [    1.719085] md: ... autorun DONE.
+Apr 11 16:24:59 jperrier kernel: [    1.725462] EXT4-fs (sda2): mounted filesystem 1b994428-edb3-48c6-8959-f777e1fae734 ro with ordered data mode. Quota mode: none.
+Apr 11 16:24:59 jperrier kernel: [    1.729000] VFS: Mounted root (ext4 filesystem) readonly on device 8:2.
+Apr 11 16:24:59 jperrier kernel: [    1.731405] devtmpfs: mounted
+Apr 11 16:24:59 jperrier kernel: [    1.732813] Freeing unused kernel image (initmem) memory: 2704K
+Apr 11 16:24:59 jperrier kernel: [    1.734062] Write protecting the kernel read-only data: 26624k
+Apr 11 16:24:59 jperrier kernel: [    1.736430] Freeing unused kernel image (rodata/data gap) memory: 1396K
+Apr 11 16:24:59 jperrier kernel: [    1.742168] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+Apr 11 16:24:59 jperrier kernel: [    1.744052] Run /sbin/init as init process
+Apr 11 16:24:59 jperrier kernel: [    1.744943]   with arguments:
+Apr 11 16:24:59 jperrier kernel: [    1.744944]     /sbin/init
+Apr 11 16:24:59 jperrier kernel: [    1.744944]   with environment:
+Apr 11 16:24:59 jperrier kernel: [    1.744945]     HOME=/
+Apr 11 16:24:59 jperrier kernel: [    1.744945]     TERM=linux
+Apr 11 16:24:59 jperrier kernel: [    1.744945]     BOOT_IMAGE=/boot/vmlinuz-next
+Apr 11 16:24:59 jperrier kernel: [    1.788690] stty (101) used greatest stack depth: 13104 bytes left
+Apr 11 16:24:59 jperrier kernel: [    1.821120] usb 1-1: new full-speed USB device number 2 using ohci-pci
+Apr 11 16:24:59 jperrier kernel: [    1.987302] ip (204) used greatest stack depth: 13048 bytes left
+Apr 11 16:24:59 jperrier kernel: <30>[    2.044728] udevd[229]: Starting systemd-udevd version 254
+Apr 11 16:24:59 jperrier kernel: <30>[    2.051634] udevd[230]: Using default interface naming scheme 'v253'.
+Apr 11 16:24:59 jperrier kernel: [    2.055783] usb 1-1: New USB device found, idVendor=80ee, idProduct=0021, bcdDevice= 1.00
+Apr 11 16:24:59 jperrier kernel: [    2.057639] usb 1-1: New USB device strings: Mfr=1, Product=3, SerialNumber=0
+Apr 11 16:24:59 jperrier kernel: [    2.059479] usb 1-1: Product: USB Tablet
+Apr 11 16:24:59 jperrier kernel: [    2.060611] usb 1-1: Manufacturer: VirtualBox
+Apr 11 16:24:59 jperrier kernel: [    2.077196] input: VirtualBox USB Tablet as /devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/0003:80EE:0021.0001/input/input6
+Apr 11 16:24:59 jperrier kernel: [    2.107548] hid-generic 0003:80EE:0021.0001: input,hidraw0: USB HID v1.10 Mouse [VirtualBox USB Tablet] on usb-0000:00:06.0-1/input0
+Apr 11 16:24:59 jperrier kernel: [    2.362968] ata_id (269) used greatest stack depth: 12832 bytes left
+Apr 11 16:24:59 jperrier kernel: [   12.336906] Adding 5240808k swap on /dev/sda3.  Priority:1 extents:1 across:5240808k 
+Apr 11 16:24:59 jperrier kernel: [   12.379743] EXT4-fs (sda2): re-mounted 1b994428-edb3-48c6-8959-f777e1fae734 ro. Quota mode: none.
+Apr 11 16:24:59 jperrier kernel: [   12.436100] EXT4-fs (sda2): re-mounted 1b994428-edb3-48c6-8959-f777e1fae734 r/w. Quota mode: none.
+Apr 11 16:24:59 jperrier kernel: [   13.148284] e1000: eth0 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
