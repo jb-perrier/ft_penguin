@@ -1,0 +1,25 @@
+From fec50db7033ea478773b159e0e2efb135270e3b7 Mon Sep 17 00:00:00 2001
+From: jperrier < jperrier@student.42lyon.fr>
+Date: Sun, 7 Apr 2024 13:22:46 -0700
+Subject: [PATCH] Adding -thor_kernel to EXTRAVERSION
+
+---
+ Makefile | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/Makefile b/Makefile
+index 4bef6323c47d..e1bf12891cb0 100644
+--- a/Makefile
++++ b/Makefile
+@@ -2,7 +2,7 @@
+ VERSION = 6
+ PATCHLEVEL = 9
+ SUBLEVEL = 0
+-EXTRAVERSION = -rc2
++EXTRAVERSION = -rc3
+ NAME = Hurr durr I'ma ninja sloth
+ 
+ # *DOCUMENTATION*
+-- 
+2.43.0
+

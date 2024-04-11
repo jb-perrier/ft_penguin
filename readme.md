@@ -43,3 +43,19 @@ void cleanup_module(void)
 insmod main.ko
 dmesg | tail -1
 rmmod main.ko
+
+#a02
+-> add -thor_kernel to EXTRAVERSION
+-> use git format-patch -1 HEAD
+-> cp arch/x86/boot/bzImage /boot/vmlinuz-torvalds
+-> boot on it and get /var/log/kern.log
+
+#a03
+/usr/src/kernel-6.4.12/scripts/checkpatch.pl module.c -no-tree -file --strict
+
+#a04
+-> rules /etc/udev/rules.d
+ACTION=="add", SUBSYSTEM=="usb", ATTR{bInterfaceProtocol}=="01" RUN+="insmod /root/ft_penguin//a04/keyboard_dd.ko"
+
+
+
