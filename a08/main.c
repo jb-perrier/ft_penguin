@@ -7,7 +7,7 @@
 #include <linux/fs.h>
 #include <linux/slab.h>
 
-MODULE_LICENSE("BSD");
+MODULE_LICENSE("GPL");
 MODULE_AUTHOR("jperrier");
 MODULE_DESCRIPTION("a08 module");
 
